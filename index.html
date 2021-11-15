@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 16</title>
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<p class="header__text">lesson 16</p>
+		</header>
+		<main class="main">
+			<div class="main__block-one doggie">
+				<div class="doggie__container">
+					<div class="doggie__row">
+						<div class="doggie__column-one">
+							<div class="doggie__item-one">
+
+								<p class="doggie__form-title">Make an appointment</p>
+
+								<form action="#" class="doggie__block form">
+									<div class="form__column">
+										<div class="form__row">
+											<input class="form__input" placeholder="Name" required value="" name="username"
+												type="text" autocomplete="off">
+											<input class="form__input" placeholder="Email" required value="" name="email"
+												type="email" autocomplete="off">
+										</div>
+										<div class="form__row">
+											<input class="form__input" placeholder="Phone Number" required value="" name="phone"
+												type="tel" autocomplete="off">
+											<input class="form__input" placeholder="Select Service" required value=""
+												name="service" type="text" autocomplete="off">
+										</div>
+										<textarea class="form__input form__input_big" name="info"
+											placeholder="Tell us about your puppers include his/her name"></textarea>
+									</div>
+									<button class="form__btn" type="submit">Make an Appointment</button>
+								</form>
+
+							</div>
+						</div>
+						<div class="doggie__column-two">
+
+							<p class="doggie__text doggie__text_middle">Maxime placeat facere possimus omnis</p>
+							<p class="doggie__text doggie__text_big">5,700+</p>
+							<p class="doggie__text doggie__text_small">customers served</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__block-two pup">
+				<div class="pup__container">
+					<div class="pup__body">
+						<div class="pup__content">
+							<p class="pup__title">Yay, puppies! Ensure your pup gets the best care!</p>
+							<form enctype="multipart/form-data" action="#" class="pup__form form-pup">
+								<div class="form-pup__row">
+									<div class="form-pup__item">
+										<label for="pup-name" class="form-pup__label form-pup__label_block">Name</label>
+										<input id="pup-name" class="form-pup__input" name="name" value="" required
+											autocomplete="off" placeholder="Pet's name" type="text">
+									</div>
+									<div class="form-pup__item form-pup__item_center">
+										<div class="form-pup__content-file">
+											<input id="pup-file" class="form-pup__input-file" name="file" type="file">
+											<label for="pup-file" class="form-pup__label-file">Upload a photo</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-pup__row">
+									<div class="form-pup__item">
+										<label for="pup-breed" class="form-pup__label form-pup__label_block">Breed</label>
+										<input id="pup-breed" class="form-pup__input" name="breed" value="" required
+											autocomplete="off" placeholder="Pet's breed" type="text">
+									</div>
+									<div class="form-pup__item">
+										<label for="pup-date" class="form-pup__label form-pup__label_block">Birthday</label>
+										<input id="pup-date" class="form-pup__input" name="date" value="" type="date">
+									</div>
+								</div>
+								<div class="form-pup__row">
+									<div class="form-pup__item">
+										<p class="form-pup__title-radio">Gender</p>
+										<div class="form-pup__option radio">
+											<div class="radio__item">
+												<input id="pup-gender-f" class="radio__input" name="gender" value="f" type="radio">
+												<label for="pup-gender-f" class="radio__label">Female</label>
+											</div>
+											<div class="radio__item">
+												<input id="pup-gender-m" class="radio__input" name="gender" value="m" type="radio">
+												<label for="pup-gender-m" class="radio__label">Male</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-pup__item">
+										<p class="form-pup__title-radio">Spayed or not spayed</p>
+										<div class="form-pup__option radio">
+											<div class="radio__item">
+												<input id="spayed-yes" class="radio__input" name="spayed" value="yes" type="radio">
+												<label for="spayed-yes" class="radio__label">Spayed</label>
+											</div>
+											<div class="radio__item">
+												<input id="spayed-not" class="radio__input" name="spayed" value="not" type="radio">
+												<label for="spayed-not" class="radio__label">Not spayed</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-pup__row">
+									<div class="form-pup__item">
+										<p class="form-pup__title-radio">Weight</p>
+										<div class="form-pup__option radio">
+											<div class="radio__item">
+												<input id="pup-weight-25" class="radio__input" name="weight" value="1" type="radio">
+												<label for="pup-weight-25" class="radio__label">0-25 lbs</label>
+											</div>
+											<div class="radio__item">
+												<input id="pup-weight-50" class="radio__input" name="weight" value="2" type="radio">
+												<label for="pup-weight-50" class="radio__label">25-50 lbs</label>
+											</div>
+											<div class="radio__item">
+												<input id="pup-weight-100" class="radio__input" name="weight" value="3"
+													type="radio">
+												<label for="pup-weight-100" class="radio__label">50-100 lbs</label>
+											</div>
+											<div class="radio__item">
+												<input id="pup-weight-plus" class="radio__input" name="weight" value="4"
+													type="radio">
+												<label for="pup-weight-plus" class="radio__label">100+ lbs</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="pup__bottom">
+							<a href="#" class="pup__btn">back</a>
+							<a href="#" class="pup__btn">next</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__block-three customer">
+				<div class="customer__container">
+					<p class="customer__title tech-title">
+						Customer Login
+					</p>
+					<div class="customer__row">
+						<div class="customer__column">
+							<p class="customer__card-title tech-card-subtitle">Registered Customers</p>
+							<p class="customer__text tech-text">If you have an account, sign in with your email address.</p>
+							<form action="#" class="castomer__form">
+								<div class="customer__item">
+									<label for="cust-email" class="customer__label tech-label">Email</label>
+									<input id="cust-email" required value="" name="email" type="email" placeholder="Your email"
+										class="customer__input tech-input" autocomplete="off">
+								</div>
+								<div class="customer__item">
+									<label for="cust-pass" class="customer__label tech-label">Password</label>
+									<input id="cust-pass" required value="" name="password" type="password"
+										placeholder="Your password" class="customer__input tech-input" autocomplete="off">
+								</div>
+								<div class="customer__item customer__item_flex">
+									<button type="submit" class="customer__btn tech-btn">Sign In</button>
+									<a href="" class="customer__link">Forgot Your Password?</a>
+								</div>
+							</form>
+						</div>
+						<div class="customer__column">
+							<p class="customer__card-title tech-card-subtitle">New Customer?</p>
+							<p class="customer__text tech-text">Creating an account has many benefits: </p>
+							<ul class="customer__list">
+								<li class="customer__items tech-text">Check out faster</li>
+								<li class="customer__items tech-text">Keep more than one address</li>
+								<li class="customer__items tech-text">Track orders and more</li>
+							</ul>
+							<a href="#" class="customer__btn-two tech-btn">Create An Account</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__block-three checkout">
+				<div class="checkout__container">
+					<form action="#" class="checkout__form">
+						<div class="checkout__head">
+							<p class="checkout__title tech-title">
+								Checkout
+							</p>
+							<button type="submit" class="checkout__btn tech-btn">Sign In</button>
+						</div>
+						<div class="checkout__body">
+							<p class="checkout__form-title tech-card-subtitle">Shipping Address</p>
+							<div class="checkout__item">
+								<label for="check-email" class="checkout__label tech-label">Email Address</label>
+								<input name="email" id="check-email" type="email" autocomplete="off" required value=""
+									class="checkout__input tech-input">
+							</div>
+							<p class="checkout__info">You can create an account after checkout.</p>
+							<div class="checkout__item">
+								<label for="check-f-name" class="checkout__label tech-label">First Name</label>
+								<input name="first-name" id="check-f-name" type="text" autocomplete="off" required value=""
+									class="checkout__input tech-input">
+							</div>
+							<div class="checkout__item">
+								<label for="check-l-name" class="checkout__label tech-label">Last Name</label>
+								<input name="last-name" id="check-l-name" type="text" autocomplete="off" required value=""
+									class="checkout__input tech-input">
+							</div>
+							<div class="checkout__item">
+								<label for="check-company" class="checkout__label tech-label">Company</label>
+								<input name="company" id="check-company" type="text" autocomplete="off" required value=""
+									class="checkout__input tech-input">
+							</div>
+							<div class="checkout__item">
+								<label for="check-street" class="checkout__label tech-label">Street Address</label>
+								<input name="street" id="check-street" type="text" autocomplete="off" required value=""
+									class="checkout__input tech-input">
+								<input name="street" type="text" autocomplete="off" required value=""
+									class="checkout__input tech-input">
+							</div>
+							<div class="checkout__item">
+								<label for="check-city" class="checkout__label tech-label">City</label>
+								<input name="city" id="check-city" type="text" autocomplete="off" required value=""
+									class="checkout__input tech-input">
+							</div>
+							<div class="checkout__item">
+								<label for="check-state" class="checkout__label tech-label">State/Province</label>
+								<select name="state-select" id="check-state" class="checkout__input tech-input">
+									<option selected value="0">Please, select a region, state or province</option>
+									<option value="1">State</option>
+									<option value="2">State</option>
+									<option value="3">State</option>
+									<option value="4">State</option>
+									<option value="5">State</option>
+									<option value="6">State</option>
+									<option value="7">State</option>
+									<option value="8">State</option>
+									<option value="9">State</option>
+									<option value="10">State</option>
+									<option value="11">State</option>
+									<option value="12">State</option>
+									<option value="13">State</option>
+									<option value="14">State</option>
+								</select>
+							</div>
+							<div class="checkout__item">
+								<label for="check-code" class="checkout__label tech-label">Zip/Postal Code</label>
+								<input name="code" id="check-code" type="text" autocomplete="off" required value=""
+									class="checkout__input tech-input">
+							</div>
+							<div class="checkout__item">
+								<label for="check-country" class="checkout__label tech-label">Country</label>
+								<select name="country" id="check-country" class="checkout__input tech-input">
+									<option selected value="0">United States</option>
+									<option value="1">Country</option>
+									<option value="2">Country</option>
+									<option value="3">Country</option>
+									<option value="4">Country</option>
+									<option value="5">Country</option>
+									<option value="6">Country</option>
+									<option value="7">Country</option>
+									<option value="8">Country</option>
+									<option value="9">Country</option>
+									<option value="10">Country</option>
+									<option value="11">Country</option>
+									<option value="12">Country</option>
+									<option value="13">Country</option>
+									<option value="14">Country</option>
+								</select>
+							</div>
+							<div class="checkout__item">
+								<label for="check-phone" class="checkout__label tech-label">Phone Number</label>
+								<input name="phone" id="check-phone" type="tel" autocomplete="off" required value=""
+									class="checkout__input tech-input">
+							</div>
+							<div class="checkout__item-radio radio-item">
+								<div class="radio-item__content">
+									<div class="radio-item__column">
+										<p class="radio-item__title tech-label">Standard Rate</p>
+										<div class="radio-item__block">
+											<div class="radio-item__point">
+												<input name="delivery" id="check-standard" type="radio" value="1"
+													class="radio-item__input">
+												<label for="check-standard" class="radio-item__label">Price may vary depending
+													on
+													the item/destination. Shop Staff will contact you.</label>
+											</div>
+											<p class="radio-item__price">$21.00</p>
+										</div>
+									</div>
+									<div class="radio-item__column">
+										<p class="radio-item__title tech-label">Pickup from store</p>
+										<div class="radio-item__block">
+											<div class="radio-item__point">
+												<input name="delivery" id="check-pickup" type="radio" value="2"
+													class="radio-item__input">
+												<label for="check-pickup" class="radio-item__label">1234 Street Adress City
+													Address, 1234</label>
+											</div>
+											<p class="radio-item__price">$0.00</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="" class="checkout__link tech-btn">Next</a>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="main__block-four summary">
+				<div class="summary__container">
+					<div class="summary__column">
+						<div class="summary__head">
+							<p class="summary__title">Summary</p>
+							<p class="summary__subtitle">Estimate Shipping and Tax</p>
+							<p class="summary__text">Enter your destination to get a shipping estimate.</p>
+						</div>
+						<form action="#" class="summary__form">
+							<div class="summary__item">
+								<label for="summary-country" class="summary__label tech-label">Country</label>
+								<select name="country" id="summary-country" class="summary__input tech-input">
+									<option selected value="0">United States</option>
+									<option value="1">Country</option>
+									<option value="2">Country</option>
+									<option value="3">Country</option>
+									<option value="4">Country</option>
+									<option value="5">Country</option>
+									<option value="6">Country</option>
+									<option value="7">Country</option>
+									<option value="8">Country</option>
+									<option value="9">Country</option>
+									<option value="10">Country</option>
+									<option value="11">Country</option>
+									<option value="12">Country</option>
+									<option value="13">Country</option>
+									<option value="14">Country</option>
+								</select>
+							</div>
+							<div class="summary__item">
+								<label for="summary-state" class="summary__label tech-label">State/Province</label>
+								<input name="state" id="summary-state" type="text" autocomplete="off" value=""
+									class="summary__input tech-input">
+							</div>
+							<div class="summary__item">
+								<label for="summary-code" class="summary__label tech-label">Zip/Postal Code</label>
+								<input name="code" id="summary-code" type="text" autocomplete="off" value=""
+									class="summary__input tech-input">
+							</div>
+							<div class="summary__item-radio">
+								<div class="summary__block">
+									<p class="summary__title-radio tech-label">Standard Rate</p>
+									<div class="summary__item summary__item_relative">
+										<input name="delivery-summ" id="summary-standard" type="radio" value="1"
+											class="summary__input-radio">
+										<label for="summary-standard" class="summary__label-radio">Price may vary depending
+											on
+											the item/destination. Shop Staff will contact you.</label>
+									</div>
+								</div>
+								<div class="summary__block">
+									<p class="summary__title-radio tech-label">Pickup from store</p>
+									<div class="summary__item summary__item_relative">
+										<input name="delivery-summ" id="summary-pickup" type="radio" value="2"
+											class="summary__input-radio">
+										<label for="summary-pickup" class="summary__label-radio">1234 Street Adress City
+											Address, 1234</label>
+									</div>
+								</div>
+							</div>
+							<p class="summary__subtitle">Estimate Shipping and Tax</p>
+							<div class="summary__item">
+								<label for="summary-discount" class="summary__label tech-label">Enter discount code</label>
+								<input name="summary-discount" id="summary-discount" type="text" autocomplete="off" value=""
+									placeholder="Enter Discount code" class="summary__input tech-input">
+							</div>
+							<button type="submit" class="summary__btn tech-btn">Apply Discount</button>
+							<div class="summary__total">
+								<div class="summary__row">
+									<p class="summary__result tech-label">Subtotal</p>
+									<p class="summary__price tech-label">$13,047.00</p>
+								</div>
+								<div class="summary__row">
+									<p class="summary__result tech-label">Shipping </p>
+									<p class="summary__price tech-label">$21.00</p>
+								</div>
+								<div class="summary__row">
+									<p class="summary__info">(Standard Rate - Price may vary depending on the
+										item/destination.
+										Shop
+										Staff will contact you.) </p>
+								</div>
+								<div class="summary__row">
+									<p class="summary__result tech-label">Tax </p>
+									<p class="summary__price tech-label">$1.91</p>
+								</div>
+								<div class="summary__row">
+									<p class="summary__result tech-label">GST (10%)</p>
+									<p class="summary__price tech-label">$1.91</p>
+								</div>
+								<div class="summary__row">
+									<p class="summary__result tech-label">Order Total</p>
+									<p class="summary__price tech-label">$13,068.00</p>
+								</div>
+							</div>
+							<div class="summary__block-btn">
+								<button type="submit" class="summary__btn tech-btn tech-btn_color-blue">Proceed to
+									Checkout</button>
+								<button type="submit" class="summary__btn tech-btn tech-btn_color-yellow"><span>
+										Check out
+										with
+									</span></button>
+								<button type="submit" class="summary__btn tech-btn tech-btn_color-gray">Check Out with Multiple
+									Addresses</button>
+							</div>
+						</form>
+						<div class="summary__bottom">
+							<span>own</span> it now, up to 6 months interest free <a class="summary__link" href="#">learn
+								more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">the end</footer>
+	</div>
+</body>
+
+</html>
